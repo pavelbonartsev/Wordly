@@ -29,7 +29,6 @@ while ans != 'Exit':
         print('Введите сюда свою догадку, она должна состоять из такого же количества символов, что и угадываемое слово, в данном случае - ' + str(len(word)) + ".")
         guess = input()
     for _ in range(6):
-        print(word)
         for i in range(len(word)):
             if guess == word:
                 ok = True
